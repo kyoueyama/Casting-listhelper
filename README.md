@@ -14,7 +14,17 @@ cp .env.example .env
 # .env を編集して ASTREAM_EMAIL / ASTREAM_PASSWORD を入れる
 ```
 
-## 使い方
+## Web アプリ（いちばん簡単な使い方）
+
+Finder で `Casting List Helper.command` をダブルクリック → ブラウザで http://localhost:8501 が開く。
+
+- 初回は Python 環境を自動セットアップ（数分）
+- 起動中にもう一度ダブルクリックすると、ブラウザを開くだけ
+- 終了はターミナルのウィンドウを閉じる
+- 「開発元が未確認」と出たら、右クリック →「開く」
+- Dock に置くと便利: ファイルを Dock の右側（ゴミ箱の隣）へドラッグ
+
+## 使い方（CLI）
 
 ```bash
 # 一気通貫（DL → 加工）
