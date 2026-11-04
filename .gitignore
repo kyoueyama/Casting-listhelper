@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+downloads/
+processed/
+.DS_Store
+playwright-report/
+test-results/
+.auth/
+debug/
+memo
+.claude/settings.local.json
